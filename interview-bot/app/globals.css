@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f2f2f2;
+  --foreground: #0a0a0a;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.interviewResult {
+	overflow-y: auto;
+	max-height: 75vh;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.message {
+	margin: 10px 0;
+	padding: 5px 10px;
+}
+
+.user {
+	background-color: #02623f;
+	float: right;
+	border-radius: 10px 10px 0 10px;
+}
+
+.model {
+	background-color: #ccc;
+	float: left;
+	border-radius: 10px 10px 10px 0;
+}
+
+.feedback {
+	margin-top: 20px;
+}
+
+.responseArea {
+	margin-top: 20px;
+}
+
+.responseArea input {
+	flex: 1;
+}
+
+.message-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.message p {
+	margin-bottom: 5px;
+}
+
+.waveform {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
