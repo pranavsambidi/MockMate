@@ -20,13 +20,14 @@ making it an invaluable tool for job seekers and students preparing for both tec
 - Intelligent Feedback  
   Scores and detailed recommendations in JSON format for self-assessment.
 
+- Feedback Storage:
+  Interview responses and feedback are stored securely in MongoDB for persistence and future use.
+
 - Authentication  
   Secure login via Google OAuth using NextAuth.js.
 
 - Dynamic Conversation Flow  
   Questions adapt based on previous answers, creating a personalized interview.
-
-- Feedback Storage: Interview responses and feedback are stored securely in MongoDB for persistence and future use.
 
 - Deployed on Vercel  
   Fast, scalable, and serverless deployment using Vercel.
@@ -50,11 +51,11 @@ Next.js | React | Tailwind CSS | NextUI | React Toastify
 Backend:  
 Node.js | Express.js | NextAuth | Google Gemini API
 
+Database: MongoDB (via Mongoose)
+
 AI & Voice: Google Gemini Pro | Web Speech API
 
 Deployment: Vercel
-
-Database: MongoDB (via Mongoose)
 
 ---
 
@@ -63,7 +64,7 @@ Database: MongoDB (via Mongoose)
 1. Clone the repository
    ```bash
    git clone https://github.com/pranavsambidi/MockMate.git
-   cd MockMate
+   cd interview-bot
    ```
 
 2. Install dependencies
