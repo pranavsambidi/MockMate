@@ -33,7 +33,7 @@ making it an invaluable tool for job seekers and students preparing for both tec
 
 ---
 
-#How It Works
+# How It Works
 
 - The app initiates an AI-powered interview using the Gemini model.
 - Users answer each question via voice.
@@ -85,19 +85,6 @@ Database: MongoDB (via Mongoose)
    npm run dev
    ```
 
----
-
-#Environment Variables
-
-You can list required env vars like this:
-```
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-NEXTAUTH_URL=
-NEXTAUTH_SECRET=
-MONGODB_URI=
-API_KEY=
-```
 ---
 
 
